@@ -74,6 +74,8 @@ These tools can repair corrupted Windows system files.
     3.  Type the following command and press Enter.
 
        sfc/scannow
+    ![image](https://github.com/user-attachments/assets/9638e76a-8559-4627-89e1-fb452035223d)
+
     5.  Wait for the scan to complete (this may take some time).
     6.  Restart your PC.
 * **Run DISM Tool (if SFC doesn't resolve the issue):**
@@ -125,8 +127,10 @@ Faulty RAM can cause `NETIO.SYS` errors.
 ### 7. Check for Disk Errors
 
 1.  Open Command Prompt as administrator.
-2.  Type `chkdsk C: /f /r /x` (replace `C:` if your Windows is installed on a different drive) and press Enter.
+2.  Type `chkdsk c:/f/r/x` (replace `c:` if your Windows is installed on a different drive) and press Enter.
 3.  You may be prompted to schedule the scan for the next restart. Type `Y` and press Enter.
+![image](https://github.com/user-attachments/assets/f16e9e20-2864-40f2-8996-54f40aba38ae)
+
 4.  Restart your PC. The scan will run before Windows loads.
 
 ### 8. Temporarily Disable or Uninstall Third-Party Antivirus/Firewall/VPN
