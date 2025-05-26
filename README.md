@@ -3,6 +3,23 @@
 This guide provides a summary of troubleshooting steps to resolve the `NETIO.SYS` Blue Screen of Death (BSOD) error on Windows 11 systems, based on information from various sources, including [WindowsReport](https://windowsreport.com/netio-sys-blue-screen-windows-11/). The `NETIO.SYS` file is a system driver file associated with network drivers and processes. An error involving this file typically points to issues with network hardware, drivers, system files, or malware.
 
 **Disclaimer:** While these steps are common troubleshooting methods, proceed with caution. It's recommended to back up your important data before making significant system changes. If you are uncomfortable performing these steps, consider seeking assistance from a qualified technician.
+## What is “NETIO.SYS”?
+
+The `NETIO.SYS` file is a crucial Windows system driver file associated with the **Network I/O subsystem**. It plays a vital role in managing network drivers and handling network input/output operations.
+
+An error involving `NETIO.SYS` is a BSoD (Blue Screen of Death) type of error. It appears with several different error messages appearing on a blue screen, causing your system to crash and reboot. Here are some of the messages (also known as stop codes) you can get when dealing with a `NETIO.SYS` error:
+
+* `IRQL_NOT_LESS_EQUAL`
+* `PAGE_FAULT_IN_NONPAGED_AREA`
+* `KMODE_EXCEPTION_NOT_HANDLED`
+* `SYSTEM_SERVICE_EXCEPTION`
+* `DRIVER_IRQL_NOT_LESS_OR_EQUAL` (often explicitly mentioning `NETIO.SYS`)
+* `SYSTEM_THREAD_EXCEPTION_NOT_HANDLED`
+
+A failure of `NETIO.SYS` typically points to issues with network hardware, drivers, system files, memory, or malware.
+
+**Disclaimer:** While these steps are common troubleshooting methods, proceed with caution. It's recommended to back up your important data before making significant system changes. If you are uncomfortable performing these steps, consider seeking assistance from a qualified technician.
+
 
 ## Common Causes of NETIO.SYS Errors
 
