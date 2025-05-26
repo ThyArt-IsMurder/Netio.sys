@@ -69,9 +69,13 @@ These tools can repair corrupted Windows system files.
 * **Run SFC Scan:**
     1.  Type `cmd` in the Windows search bar.
     2.  Right-click on **Command Prompt** and select **Run as administrator**.
-    3.  Type `sfc /scannow` and press Enter.
-    4.  Wait for the scan to complete (this may take some time).
-    5.  Restart your PC.
+![image](https://github.com/user-attachments/assets/86946f9c-4a26-4a69-864d-fcea5acf7a6d)
+
+    3.  Type the following command and press Enter.
+
+       sfc/scannow
+    5.  Wait for the scan to complete (this may take some time).
+    6.  Restart your PC.
 * **Run DISM Tool (if SFC doesn't resolve the issue):**
     1.  Open Command Prompt as administrator.
     2.  Type the following commands one by one, pressing Enter after each:
